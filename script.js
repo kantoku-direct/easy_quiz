@@ -54,7 +54,7 @@ function answer(choice) {
   const btnB = document.getElementById("btnB");
   
   if (choice === q.answer) {
-    document.getElementById ("result").textContent = "Correct!";
+    document.getElementById("result").textContent = "Correct!";
   }else{
     document.getElementById("result").textContent = "Incorrect...";
   }
