@@ -69,7 +69,7 @@ function next() {
     current++;
     showQuestion();
   }else{
-    document.getElementById ("result").textContent = "Finish";
+    document.getElementById("result").textContent = "Finish";
   }
 }
 
