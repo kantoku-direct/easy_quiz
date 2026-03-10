@@ -54,11 +54,9 @@ function answer(choice) {
   const btnB = document.getElementById("btnB");
   
   if (choice === q.answer) {
-    document.getElementById
-    ("result").textContent = "Correct!";
+    document.getElementById ("result").textContent = "Correct!";
   }else{
-    document.getElementById
-    ("result").textContent = "Incorrect...";
+    document.getElementById("result").textContent = "Incorrect...";
   }
   btnA.disabled = true;
   btnB.disabled = true;
@@ -71,8 +69,7 @@ function next() {
     current++;
     showQuestion();
   }else{
-    document.getElementById
-    ("result").textContent = "Finish";
+    document.getElementById ("result").textContent = "Finish";
   }
 }
 
